@@ -5,7 +5,7 @@ You can also filter entries by several parameters and go to the page with the ge
 
 ## Demo
 
-[Click me, please](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+[Click me, please](https://vinyls-ten.vercel.app/)
 
 ## 🛠 Stack
 
