@@ -19,6 +19,14 @@ export const pages: TPageItem[] = [
 		id: 2,
 		name: 'Hip Hop',
 	},
+	{
+		id: 3,
+		name: 'Pop',
+	},
+	{
+		id: 4,
+		name: 'Jazz',
+	},
 ];
 
 export const sorts: TSortItem[] = [
