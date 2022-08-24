@@ -1,0 +1,33 @@
+.root {
+	ul {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		text-transform: uppercase;
+		color: #fff;
+
+		li {
+			border-radius: 0;
+			margin-bottom: 16px;
+			font-weight: bold;
+			cursor: pointer;
+			transition: background-color 0.1s ease-in-out;
+
+			&:hover {
+				background-color: #fff !important;
+				color: #000;
+			}
+		}
+
+		a {
+			color: inherit;
+			display: block;
+			padding: 10px 20px;
+		}
+	}
+}
+
+.active {
+	background-color: #fff !important;
+	color: #000;
+}

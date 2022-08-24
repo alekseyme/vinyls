@@ -1,0 +1,52 @@
+@import '../../scss/variables';
+
+.root {
+	position: relative;
+	font-size: 16px;
+}
+
+.label {
+	display: flex;
+	align-items: center;
+
+	svg {
+		margin-right: 8px;
+		transform: rotate(180deg);
+	}
+
+	span {
+		color: $black;
+		border-bottom: 1px dashed $black;
+		cursor: pointer;
+	}
+}
+
+.popup {
+	position: absolute;
+	left: 0;
+	margin-top: 15px;
+	background: #ffffff;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 10px 0;
+	width: 200px;
+	z-index: 999;
+
+	ul {
+		overflow: hidden;
+		li {
+			padding: 12px 20px;
+			cursor: pointer;
+			&:hover {
+				background: lighten($primary, 50%);
+			}
+		}
+	}
+}
+
+.popup_active {
+	background: lighten($primary, 50%);
+	font-weight: bold;
+	color: $primary;
+}

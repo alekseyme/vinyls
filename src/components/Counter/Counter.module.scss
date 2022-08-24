@@ -1,0 +1,33 @@
+@import '../../scss/variables';
+
+.root {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.minus {
+	svg {
+		path:first-of-type {
+			display: none;
+		}
+	}
+
+	&:disabled,
+	&[disabled] svg {
+		border-color: darken($color: $gray-line, $amount: 10);
+		path {
+			fill: darken($color: $gray-line, $amount: 15);
+		}
+
+		&:hover {
+			background: transparent;
+			cursor: not-allowed;
+		}
+	}
+}
+
+b {
+	font-size: 22px;
+	padding: 0 10px;
+}

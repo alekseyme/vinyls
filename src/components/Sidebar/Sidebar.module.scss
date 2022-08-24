@@ -1,0 +1,12 @@
+@import '../../scss/variables';
+
+.root {
+	padding: 30px;
+	border-right: 1px solid $gray-line;
+	background: $background-dark;
+	position: fixed;
+	width: 260px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}

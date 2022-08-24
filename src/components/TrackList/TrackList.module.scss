@@ -1,0 +1,25 @@
+.root {
+	flex: 0 1 500px;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+.list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2px;
+}
+
+.track_number {
+	display: inline-block;
+	font-weight: 700;
+	width: 30px;
+}
+
+.track_name {
+	letter-spacing: 1px;
+}

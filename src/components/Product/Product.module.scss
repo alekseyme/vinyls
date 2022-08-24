@@ -1,0 +1,50 @@
+@import '../../scss/variables';
+
+.root {
+	width: 240px;
+	margin-bottom: 65px;
+	position: relative;
+}
+
+.image {
+	width: 100%;
+	border-radius: 10px;
+	transition: all $duration ease-in-out;
+
+	&:hover {
+		box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.17);
+	}
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 900;
+	letter-spacing: 1%;
+	margin-bottom: 0px;
+	margin-top: 4px;
+}
+
+.bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 6px;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	letter-spacing: 0.015em;
+}
+
+.author {
+	font-size: 16px;
+	margin-bottom: 13px;
+	color: #555;
+}
+
+.ganre {
+	font-size: 14px;
+	color: #555;
+}

@@ -1,0 +1,85 @@
+@import '../../scss/variables';
+
+.root {
+	display: flex;
+	position: relative;
+	min-height: 700px;
+	background: #fff;
+	padding: 90px 50px;
+	gap: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+}
+
+.button {
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+}
+
+.poster {
+	flex: 0 0 300px;
+	height: 300px;
+	width: 100%;
+	img {
+		display: block;
+		width: 100%;
+		border-radius: 10px;
+	}
+
+	button {
+		width: 100%;
+		margin-top: 0px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		margin-top: 20px;
+		border-radius: 10px;
+
+		span {
+			font-size: 20px;
+		}
+	}
+}
+
+.info {
+	flex: 0 1 550px;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+.author {
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 33px;
+	letter-spacing: 1px;
+}
+
+.star_rating {
+	color: $primary;
+}
+
+.row {
+	display: flex;
+	gap: 50px;
+}
+
+.description {
+	padding: 12px 0 12px 0;
+	span {
+		font-weight: 700;
+	}
+}
+
+.description_item {
+	margin-bottom: 6px;
+}
